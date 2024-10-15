@@ -25,6 +25,6 @@ Feel free to explore the different sections of the site.
 - Responsive design that works on various devices.
 
 ## Contact
-You can reach me at: your_email@example.com
+You can reach me on discord at: jayfromtheonlytrio
 
 Feel free to provide feedback or ask questions!
