@@ -65,7 +65,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('your-image-url.jpg'); /* Use your MTB image here */
+    background-image: url('mtbbanner.png'); /* Updated image URL */
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -210,3 +210,4 @@ footer {
     margin: 20px 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
