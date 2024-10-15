@@ -1,21 +1,37 @@
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e7f3ff; /* Light blue background */
+    background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
 header {
-    background-color: #007bff; /* Blue header */
+    background-color: #2c3e50;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
     text-align: center;
+    font-weight: 700;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
 nav ul li {
@@ -27,67 +43,109 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #cfcfcf;
+    color: #e74c3c;
 }
 
+/* Hero Section */
 .hero {
-    background-image: url('your-image-url.jpg'); /* Replace with a mountain biking image URL */
+    background-image: url('your-image-url.jpg');
     background-size: cover;
-    padding: 50px;
-    text-align: center;
-    color: white;
+    background-position: center;
+    height: 90vh;
     position: relative;
 }
 
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
 .hero h2 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-bottom: 10px;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #FF6347; /* Tomato color */
+    background-color: #e74c3c;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #FF4500;
+    background-color: #c0392b;
 }
 
-.features, .how-it-works {
-    padding: 20px;
+/* Features Section */
+.features {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+}
+
+.feature-grid {
     display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
+    justify-content: space-between;
 }
 
-.feature, .tile {
-    background-color: #ffffff;
+.feature {
+    background-color: white;
+    padding: 20px;
     border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    flex: 1;
-    margin: 0 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 30%;
 }
 
+.feature h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.tile-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.tile h3 {
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
 footer {
-    text-align: center;
-    padding: 15px 0;
-    background-color: #007bff; /* Blue footer */
+    background-color: #2c3e50;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-h1, h2 {
-    margin: 10px 0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
