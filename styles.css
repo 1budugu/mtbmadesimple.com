@@ -52,7 +52,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('your-image-url.jpg');
+    background-image: url('mtbbanner.png');
     background-size: cover;
     background-position: center;
     height: 90vh;
