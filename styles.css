@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e7f3ff; /* Light blue background */
     color: #333;
 }
 
 header {
-    background-color: #2E8B57;
+    background-color: #007bff; /* Blue header */
     color: white;
     padding: 20px;
     text-align: center;
@@ -35,11 +35,12 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('mtbbanner.png'); /* Replace with a mountain biking image URL */
+    background-image: url('your-image-url.jpg'); /* Replace with a mountain biking image URL */
     background-size: cover;
     padding: 50px;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 .hero h2 {
@@ -48,7 +49,7 @@ nav a:hover {
 
 .cta-button {
     display: inline-block;
-    background-color: #FF6347;
+    background-color: #FF6347; /* Tomato color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -60,14 +61,14 @@ nav a:hover {
     background-color: #FF4500;
 }
 
-.features {
+.features, .how-it-works {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
 }
 
-.feature {
+.feature, .tile {
     background-color: #ffffff;
     border-radius: 8px;
     padding: 15px;
@@ -80,7 +81,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #2E8B57;
+    background-color: #007bff; /* Blue footer */
     color: white;
     position: relative;
     bottom: 0;
@@ -90,4 +91,3 @@ footer {
 h1, h2 {
     margin: 10px 0;
 }
-
