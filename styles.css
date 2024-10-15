@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF; /* White background */
+    color: #333333; /* Dark gray text */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1F3A2D; /* Dark Green */
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -25,17 +26,33 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #A8D5BA; /* Light Green */
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+}
+
+main {
+    padding: 20px;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #4CAF50;
+    padding: 20px 0;
+    background-color: #1F3A2D; /* Dark Green */
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
 }
-
-
-
