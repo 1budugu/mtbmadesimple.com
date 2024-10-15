@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('your-image-url.jpg'); /* Replace with a mountain biking image URL */
+    background-image: url('mtbbanner.png'); /* Replace with a mountain biking image URL */
     background-size: cover;
     padding: 50px;
     text-align: center;
