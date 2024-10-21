@@ -13,8 +13,10 @@ body {
 /* Navigation bar styles */
 header {
     background-color: #000; /* Black background */
-    padding: 10px 20px; /* Padding for the header */
+    padding: 15px 30px; /* Increased padding for better spacing */
     border-radius: 20px; /* Curved corners */
+    margin-top: 20px; /* Pushes the header down from the top */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
 nav {
@@ -24,9 +26,10 @@ nav {
 }
 
 .logo a {
-    font-size: 24px; /* Logo size */
+    font-size: 28px; /* Larger logo size */
     color: white; /* Logo color */
     text-decoration: none; /* No underline */
+    font-weight: bold; /* Make logo bold */
 }
 
 .nav-links {
@@ -35,17 +38,19 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 20px; /* Space between links */
+    margin-left: 30px; /* Space between links */
 }
 
 .nav-links a {
     text-decoration: none; /* Remove underline */
     color: white; /* Link color */
     font-size: 18px; /* Link size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
 }
 
 .nav-links a:hover {
     color: #ccc; /* Light gray on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
 }
 
 /* Main content styles */
