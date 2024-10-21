@@ -1,41 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>SwiftMTB - Home</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">SwiftMTB</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="forums.html">Forums</a></li>
-            </ul>
-        </nav>
-    </header>
+/* General reset */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <main>
-        <h1>Welcome to SwiftMTB</h1>
-        <p>Your go-to site for everything mountain biking!</p>
-    </main>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
 
-    <footer>
-        <p>&copy; 2024 SwiftMTB. All rights reserved.</p>
-    </footer>
+/* Navigation bar styles */
+header {
+    background-color: #000; /* Black background */
+    padding: 10px 20px; /* Padding for the header */
+    border-radius: 20px; /* Curved corners */
+}
 
-    <div id="cookie-alert" class="cookie-alert">
-        <p>This website uses cookies to enhance the user experience. <button id="accept-cookies">Accept</button></p>
-    </div>
+nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+}
 
-    <script>
-        document.getElementById('accept-cookies').onclick = function() {
-            document.getElementById('cookie-alert').style.display = 'none';
-        };
-    </script>
-</body>
-</html>
+.logo a {
+    font-size: 24px; /* Logo size */
+    color: white; /* Logo color */
+    text-decoration: none; /* No underline */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Flexbox for navigation */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-size: 18px; /* Link size */
+}
+
+.nav-links a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
