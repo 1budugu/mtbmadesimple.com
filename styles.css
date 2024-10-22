@@ -16,7 +16,7 @@ header {
     padding: 15px 30px; /* Padding for space inside the header */
     border-radius: 20px; /* Curved corners */
     margin: 20px auto; /* Space around the header and center it */
-    max-width: 90%; /* Make the nav bar smaller than the full width */
+    max-width: 70%; /* Make the nav bar smaller than the full width */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
 }
 
